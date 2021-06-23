@@ -32,12 +32,16 @@
 
     &--sm {
         max-width: 900px;
+
+        @media @mobile-sm {
+            max-width: 400px;
+            max-height: 400px;
+         }
     }
 
-    @media @mobile-sm {
-        max-width: 400px;
-        max-height: 400px;
-     }
+
+
+
 
 }
 
@@ -70,6 +74,13 @@
 
 .modal__content {
     padding: 5rem 1rem;
+
+    @media @mobile-sm {
+        padding: 1rem 1rem;
+
+    }
+
+
 }
 
 .modal__title {
@@ -81,7 +92,7 @@
 
     @media @mobile-sm {
         font-size: 1rem;
-
+        margin-bottom: 1rem;
     }
 }
 

@@ -21,6 +21,11 @@
         z-index: 1;
     }
 
+    @media @mobile-sm {
+        margin: 1rem auto;
+
+    }
+
 }
 
 .timeline__col {
@@ -50,6 +55,12 @@
     text-transform: uppercase;
     font-weight: 700;
 
+    @media @mobile-sm {
+        margin-bottom: .8rem;
+        font-size: .6rem;
+
+    }
+
 }
 
 .timeline__item {
@@ -57,6 +68,11 @@
 
     &:last-child {
         margin-bottom: 0;
+    }
+
+    @media @mobile-sm {
+        margin-bottom: 1rem;
+
     }
 }
 
@@ -69,7 +85,20 @@
 
     &--aw {
         padding-right: 1.2rem;
+
+        @media @mobile-sm {
+            padding-right: .9rem;
+
+        }
     }
+
+    @media @mobile-sm {
+        margin-bottom: .3rem;
+        font-size: .45rem;
+
+    }
+
+
 
 }
 
@@ -79,12 +108,23 @@
     color: @black;
     font-weight: 700;
 
+    @media @mobile-sm {
+        margin-bottom: .1rem;
+        font-size: .6rem;
+
+    }
+
 }
 
 .timeline__position {
     font-style: .94rem;
     color: @black;
     font-style: italic;
+
+    @media @mobile-sm {
+        font-size: .45rem;
+
+    }
 }
 
 .timeline__text {
@@ -93,5 +133,11 @@
     color: @gray;
     font-weight: 300;
     line-height: 1.5;
+
+    @media @mobile-sm {
+        margin-top: 0.4rem;
+        font-size: .39rem;
+
+    }
 }
 

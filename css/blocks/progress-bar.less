@@ -2,17 +2,39 @@
 
 .progress-bar {
     margin-bottom: 2.6rem;
+
+    @media @mobile-sm {
+        margin-bottom: 1rem;
+
+    }
+
+
+
 }
 
 .progress-bar__item {
     display: flex;
     align-items: center;
     margin-bottom: .5rem;
+
+    @media @mobile-sm {
+        margin-bottom: .2rem;
+
+    }
+
+
 }
 
 .progress-bar__right {
     position: absolute;
     padding-left: 8.06rem;
+
+    @media @mobile-sm {
+        padding-left: 3rem;
+
+    }
+
+
 
 }
 
@@ -21,6 +43,14 @@
     width: 139px;
     height: 6px;
     background-color: #efefef;
+
+    @media @mobile-sm {
+        width: 40px;
+        height: 4px;
+
+    }
+
+
 }
 
 .progress-bar__progress {
@@ -36,4 +66,9 @@
 .progress-bar__title {
     font-size: .94rem;
     font-weight: 300;
+
+    @media @mobile-sm {
+        font-size: .4rem;
+
+    }
 }
