@@ -33,6 +33,12 @@
     &--sm {
         max-width: 900px;
     }
+
+    @media @mobile-sm {
+        max-width: 400px;
+        max-height: 400px;
+     }
+
 }
 
 .modal__close {
@@ -53,6 +59,13 @@
     &:hover {
         transform: translateY(-3px);
     }
+
+    @media @mobile-sm {
+        width: 30px;
+        height: 35px;
+    }
+
+
 }
 
 .modal__content {
@@ -65,10 +78,20 @@
     color: @black;
     font-weight: 700;
     margin-bottom: 3.6rem;
+
+    @media @mobile-sm {
+        font-size: 1rem;
+
+    }
 }
 
 .modal__subtitle {
     text-transform: uppercase;
     font-size: 1.06rem;
     color: @black;
+
+    @media @mobile-sm {
+        font-size: .5rem;
+
+    }
 }

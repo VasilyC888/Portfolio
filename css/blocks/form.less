@@ -2,6 +2,12 @@
 
 .form__group {
     margin-bottom: 1.8rem;
+
+    @media @mobile {
+        margin-bottom: 1rem;
+    }
+
+
 }
 
 .form__label {
@@ -41,10 +47,21 @@
     &::placeholder {
         color: @black;
     }
+
+    @media @mobile {
+        padding: 0.3rem 0.8rem;
+        font-size: .5rem;
+    }
 }
 
 .form__textarea {
     height: 200px;
     resize: none;
+
+    @media @mobile {
+        height: 90px;
+    }
+
+
 }
 
